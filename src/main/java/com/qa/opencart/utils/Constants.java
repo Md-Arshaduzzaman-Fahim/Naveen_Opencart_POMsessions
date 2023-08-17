@@ -8,7 +8,7 @@ public class Constants {
    public static final String ACCOUNTS_PAGE_TITLE = "My Account";
    public static final String ACCOUNTS_PAGE_HEADER = "naveenopencart";
    
-   public static final int DEFAULT_TIME_OUT = 5;
+   public static final int DEFAULT_TIME_OUT = 6;
    
    public static final int IMAC_IMAGE_COUNT = 3;
    
