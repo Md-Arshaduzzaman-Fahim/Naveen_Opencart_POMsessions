@@ -50,6 +50,7 @@ public class ExtentReportListener extends DriverFactory implements ITestListener
 		extentReports.setSystemInfo("Build#", "1.1");
 		extentReports.setSystemInfo("Team", "OpenCart QA Team");
 		extentReports.setSystemInfo("Customer Name", "NAL");
+		extentReports.setSystemInfo("ENV Name", System.getProperty("env"));
 
 
 		//extentReports.setSystemInfo("ENV NAME", System.getProperty("env"));

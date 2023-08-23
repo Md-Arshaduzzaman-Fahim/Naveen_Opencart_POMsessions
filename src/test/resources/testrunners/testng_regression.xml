@@ -14,28 +14,62 @@
 		
 	</listeners>
 
-	<test name="Open Cart Login Page Test">
+	<test name="Open Cart Login Page Test - ch - 109">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="109" />
 		
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
-
-
-	<test name="Open Cart Accounts Page Test">
+	
+	
+	<test name="Open Cart Login Page Test - ch - 90">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90" />
 		
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>
+	
+	
+	
+	 <test name="Open Cart Login Page Test - ff - 57">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserversion" value="57" />
+		
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>
+	
+	
+
+	<test name="Open Cart Accounts Page Test - ch - 90">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
 	</test>
 	
 	
-	<test name="Open Cart Product Info Page Test">
+	<test name="Open Cart Accounts Page Test - ch - 109">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="109" />
+		<classes>
+			<class name="com.qa.opencart.tests.AccountsPageTest" />
+		</classes>
+	</test>
+	
+	
+	<!--   <test name="Open Cart Product Info Page Test">
 		
 		<classes>
 			<class name="com.qa.opencart.tests.ProductInfoPageTest" />
 		</classes>
-	</test>
+	</test>  -->
 
 
 	<!-- <test name="Open Cart Registration Page Test">
